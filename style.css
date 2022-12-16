@@ -70,11 +70,17 @@ article {
 
 #abajoIzquierda {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;    
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;    
 }
 
 #abajoIzquierda div {
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: 24% 24%;
+}
+
+#abajoIzquierda div div {
     border-style: solid;
     border-radius: 50%;
 }

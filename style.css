@@ -1,0 +1,97 @@
+/*
+MasterMind
+*/
+
+body {
+    margin: 0;
+}
+
+header {
+    background: rgb(175, 225, 175);
+    text-align: center;
+    height: max-content;
+    padding: 1em;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100vh;
+
+
+}
+
+article {
+    flex: 1;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 5px;
+    
+}
+
+#medio {    
+    flex: 2;
+    border: solid;
+    border-width: 1px;
+    
+}
+
+#tablero {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 2fr 10fr;
+    height: 95vh;
+    gap: 5px;
+    border-style: solid;
+    border-color: #9A7722;
+    background-color: #9A7722;
+    border-radius: 10px;
+
+    
+}
+
+#tablero div {
+    border-width: 2px;
+    margin: 10px;
+    padding: 5px;
+}
+
+#arribaDerecha {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#arribaDerecha div {
+    border-style: solid;
+    border-radius: 50%;
+}
+
+#abajoIzquierda {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;    
+}
+
+#abajoIzquierda div {
+    border-style: solid;
+    border-radius: 50%;
+}
+
+#abajoDerecha {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+#abajoDerecha div {
+    border-style: solid;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    font-size: large;
+}

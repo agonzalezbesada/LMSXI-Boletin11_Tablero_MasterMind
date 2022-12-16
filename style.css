@@ -68,6 +68,22 @@ article {
     border-radius: 50%;
 }
 
+#resultado1 {
+    background-color: green;
+}
+
+#resultado2 {
+    background-color: red;
+}
+
+#resultado3 {
+    background-color: blue;
+}
+
+#resultado4 {
+    background-color: green;
+}
+
 #abajoIzquierda {
     display: grid;
     grid-template-columns: 1fr;
@@ -85,6 +101,39 @@ article {
     border-radius: 50%;
 }
 
+#IF1 {
+    background-color: black;
+
+}
+
+#IF2 {
+    background-color: white;
+}
+
+#IF3 {
+    background-color: white;
+}
+
+#IF4 {
+    
+}
+
+#IG1 {
+    background-color: white;
+}
+
+#IG2 {
+    
+}
+
+#IG3 {
+    background-color: black;
+}
+
+#IG4 {
+    
+}
+
 #abajoDerecha {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -95,6 +144,38 @@ article {
 #abajoDerecha div {
     border-style: solid;
     border-radius: 50%;
+}
+
+#DF1 {
+    background-color: green;
+}
+
+#DF2 {
+    background-color: green;
+}
+
+#DF3 {
+    background-color: orange;
+}
+
+#DF4 {
+    background-color: red;
+}
+
+#DG1 {
+    background-color: red;
+}
+
+#DG2 {
+    background-color: yellow;
+}
+
+#DG3 {
+    background-color: red;
+}
+
+#DG4 {
+    background-color: green;
 }
 
 footer {
